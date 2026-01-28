@@ -23,13 +23,13 @@ public class BookMain {
         books[1] = new Book(2, "Python", 450);
         books[2] = new Book(3, "C++", 1050);
         books[3] = new Book(4, "DSA", 1370);
-        books[4] = new Book(5, "OS", 500);
+        books[4] = new Book(5, "OS", 300);
 
         double sum = 0;
 
         System.out.println("Books price > 1000:");
         for (Book b : books) {
-            if (b.price > 1000) {
+            if (b.price > 500) {
                 b.display();
             }
             sum += b.price;
